@@ -185,6 +185,48 @@ header .home .home-cols .highlight .highlight-text h1{
         font-size: 30px;
     }
 }
+@media(max-width:850px){
+    header .home .home-text {
+        top: 35%;
+    }
+}
+@media(max-width:730px){
+    header .home .home-text .text-btn{
+        display: none;
+    }
+}
+@media(max-width:550px){
+    header .home .home-text .heading{
+        font-size: 25px;
+    }
+    header .home .home-text {
+        top: 30%;
+    }
+    header .home .home-cols .highlight .highlight-text h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:450px){
+    header .home .home-text .heading{
+        font-size: 20px;
+    }
+    header .home .home-text {
+        top: 25%;
+    }
+}
+@media(max-width:380px){
+    header .home .home-cols .highlight .highlight-text h1{
+        font-size: 20px;
+    }
+}
+@media(max-width:360px){
+    header .home .home-text .heading{
+        font-size: 16px;
+    }
+    header .home .home-text {
+        top: 20%;
+    }
+}
 /* END HEADER */
 
 /* START ABOUT */
@@ -294,6 +336,21 @@ main #about .right-section .imgs h3{
 @media(max-width:730px){
     main #about .left-section .btns{
         width:60%;
+    }
+}
+@media(max-width:620px){
+    main #about .left-section .btns{
+        width:70%;
+    }
+}
+@media(max-width:530px){
+    main #about .left-section .btns{
+        width:80%;
+    }
+}
+@media(max-width:470px){
+    main #about .left-section .btns{
+        width:100%;
     }
 }
 /* END ABOUT */
@@ -638,6 +695,26 @@ main #contact .card form .btn:hover{
 @media(max-width:850px){
     #contact .card{
         width:90%;
+    }
+}
+@media(max-width:670px){
+    main #contact .card {
+        width: 70%;
+    }
+}
+@media(max-width:600px){
+    main #contact .card {
+        width: 80%;
+    }
+}
+@media(max-width:500px){
+    main #contact .card {
+        width: 90%;
+    }
+}
+@media(max-width:450px){
+    main #contact .card {
+        width: 92%;
     }
 }
 /* END CONTACT */
